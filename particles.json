@@ -2,13 +2,36 @@
 {
     "particles":{
         "number":{
-            "value": 100
+            "value": 140
         },
         "color":{
             "value": "#fff"
         },
         "shape":{
-            "type": "circle"
+            "type": "circle",
+            "stroke": {
+                "width": 1,
+                "color":"#ccc"
+            },
+            "image":{
+                "src": "images/fire.png"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random": true,
+            "anim":{
+                "enable": true,
+                "speed":20
+            }
+        },
+        "size":{
+            "value":5,
+            "random":false,
+            "anim":{
+                "enable":true,
+                "speed":20
+            }
         }
     }
 }
